@@ -8,13 +8,13 @@
 body{
   margin: 0;
   padding: 0;
-  background: linear-gradient(120deg,#ffffff, #35cce0);
+  background: linear-gradient(120deg,#ffffff, #24c9cb);
   height: 100vh;
   overflow: hidden;
 }
 .center{
   position: absolute;
-  top: 50%;
+  top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
@@ -68,7 +68,7 @@ form .txt_field{
 .txt_field input:focus ~ label,
 .txt_field input:valid ~ label{
   top: -5px;
-  color: #e7810d;
+  color: #33dfc2;
 }
 .txt_field input:focus ~ span::before,
 .txt_field input:valid ~ span::before{
@@ -95,7 +95,7 @@ input[type="submit"]{
   outline: none;
 }
 input[type="submit"]:hover{
-  border-color: #e7810d;
+  border-color: #40c8d1;
   transition: .5s;
 }
 .signup_link{
