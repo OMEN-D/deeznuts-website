@@ -175,7 +175,20 @@ body {
   animation: spin 2.5s linear infinite;
 }
 
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
 
+.btn:hover {
+  background-color: #0062cc;
+}
 
 
 
